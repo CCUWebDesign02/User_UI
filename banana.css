@@ -221,7 +221,7 @@ ul.socialIcons {
     height:300px;
     position:absolute;
     top: 550px;
-    left:150px;
+    left:200px;
     z-index:2;
 }
 .inproduce{
@@ -232,8 +232,8 @@ ul.socialIcons {
     text-align: center;
 }
 .mdetails{
-    width:800px;
-    height:400px;
+    width:900px;
+    height:700px;
     background-color:rgb(231, 255, 145);
     position: relative;
     margin:auto;
