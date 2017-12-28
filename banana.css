@@ -8,7 +8,7 @@
 
 
 .header{
-    background: rgb(255, 226, 63);
+    background: rgb(58, 0, 92);
     width: 100%;
     top: 0;
     margin-bottom: -10px;
@@ -27,6 +27,8 @@
     margin-left: 15px;
 }
 
+
+/*F T I  icon */
 
 .icon {
     margin-right: 125px;
@@ -97,6 +99,7 @@ ul.socialIcons {
     margin-right: 100px;
  }
 
+ /* movie */
 .textOverImage{
     position: relative;
     width: 300px;
@@ -156,6 +159,16 @@ ul.socialIcons {
     font-size:1.5em;
   }
 
+
+
+
+
+
+
+
+
+/* footer */
+
 .site-footer{
     background-color: rgb(58, 0, 92);
     color: blue; 
@@ -196,46 +209,90 @@ ul.socialIcons {
 }
 
 
-/*Check time*/
-.find{
-    width:100%; 
-    padding:10px;
-    background-color:rgb(237, 222, 238);
-    font-weight: bold;
+
+
+/* snow fuction */
+ 
+body{
+    margin: 0;
+    padding: 0;
 }
-.check{
-    width:900px;
+
+.backgcolor{
+    background-color: #00277a;
+    background-size: cover;
+    width: 100%;
+    height: 1150px;
     position: relative;
-    transform:translateX(30%);
+    overflow:hidden;
 }
 
+section{
+  
+   
+}
 
-/*Movie inproduce*/
-.bigger{
-    width:100%;
-    height:500px;
-    z-index:1;
+.snow1{
+    
 }
-.smaller{
-    width:200px;
-    height:300px;
-    position:absolute;
-    top: 550px;
-    left:200px;
-    z-index:2;
+
+.imgbox{
+    float: left;
 }
-.inproduce{
-    width:100%; 
-    padding:10px;
-    background-color:rgb(237, 222, 238);
-    font-weight: bold;
+
+.comment{
+    height: 900px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.customer{
     text-align: center;
 }
-.mdetails{
-    width:900px;
-    height:700px;
-    background-color:rgb(231, 255, 145);
-    position: relative;
-    margin:auto;
+
+.commentBox{
+    text-align: left;  
+}
+.Boxsubmit{
+    text-align: center;
 }
 
+input[type="text"]{
+	display: block;
+	margin-bottom: 25px;
+	width: 100%;
+	border: 2px solid steelblue;
+    background:skyblue;
+    border-radius: 5em;
+    outline: none;
+
+}
+textarea{
+    display: block;
+	margin-bottom: 25px;
+	width: 100%;
+	border: 2px solid steelblue;
+    background: skyblue;
+    padding: 10px;
+    border-radius: 2.9em;
+    outline: none;
+   
+}
+form{
+	margin: 20px auto;
+	width: 320px;	
+}
+
+input{
+	padding: 10px;
+    font-size: inherit;
+    
+}
+
+.input:focus{
+	background: white;
+}
+
+b{
+    text-align: left; 
+}
