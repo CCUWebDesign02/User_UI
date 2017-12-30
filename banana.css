@@ -217,7 +217,7 @@ ul.socialIcons {
     margin:20px;
 } 
 appear:hover + .mposition {
-   
+    display: block;
     border-style:solid;
     width: 600px;
     height: 300px;
