@@ -199,6 +199,7 @@ ul.socialIcons {
 /*Check time*/
 .find{
     width:100%; 
+    height:3500px;
     padding:10px;
     background-color:rgb(237, 222, 238);
     font-weight: bold;
@@ -207,6 +208,20 @@ ul.socialIcons {
     width:900px;
     position: relative;
     transform:translateX(30%);
+}
+.mposition{
+    background-color: rgb(255, 255, 136);
+    padding: 20px;
+    position:relative ;
+    display: none;
+    margin:20px;
+} 
+appear:hover + .mposition {
+    display: block;;
+    border-style:solid;
+    width: 600px;
+    height: 300px;
+    line-height:30px;
 }
 
 
