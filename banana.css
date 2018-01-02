@@ -252,5 +252,10 @@ appear:hover + .mposition {
     background-color:rgb(231, 255, 145);
     position: relative;
     margin:auto;
+    line-height: 40px
+}
+#warning{
+    height:100px;
+    width:100px;
 }
 
