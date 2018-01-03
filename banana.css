@@ -212,16 +212,23 @@ ul.socialIcons {
 .mposition{
     background-color: rgb(255, 255, 136);
     padding: 20px;
-    position:relative ;
     display: none;
     margin:20px;
 } 
 appear:hover + .mposition {
     display: block;
-    border-style:solid;
+    background:rgb(248, 211, 142);
+    border:solid;
     width: 600px;
     height: 300px;
     line-height:30px;
+    position:fixed ;
+    left:30em;
+}
+.mi{
+    border:solid;
+    background:rgb(248, 211, 142);
+    float:right;
 }
 
 
@@ -233,10 +240,10 @@ appear:hover + .mposition {
 }
 .smaller{
     width:200px;
-    height:300px;
-    position:absolute;
-    top: 550px;
-    left:200px;
+    height:250px;
+    position: fixed;
+    top: 450px;
+    left:100px;
     z-index:2;
 }
 .inproduce{
@@ -244,18 +251,35 @@ appear:hover + .mposition {
     padding:10px;
     background-color:rgb(237, 222, 238);
     font-weight: bold;
+    position: relative;
     text-align: center;
 }
 .mdetails{
     width:900px;
     height:700px;
     background-color:rgb(231, 255, 145);
+    line-height: 40px;
     position: relative;
-    margin:auto;
-    line-height: 40px
+    margin: auto;
+}
+.tm{
+    text-align: left;
+    position: relative;
+    left: 400px;
 }
 #warning{
     height:100px;
     width:100px;
+}
+.story{
+    width:100%; 
+    padding-left: 500px;
+    padding-right:500px;
+    padding-top: 100px;
+    padding-bottom:100px;
+    background-color:rgb(181, 182, 247);
+    font-weight: bold;
+    position: relative;
+    text-align: center;
 }
 
