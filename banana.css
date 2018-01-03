@@ -217,9 +217,10 @@ ul.socialIcons {
 } 
 appear:hover + .mposition {
     display: block;
+    padding: 20px;
     background:rgb(248, 211, 142);
     border:solid;
-    width: 600px;
+    width: 50%;
     height: 300px;
     line-height:30px;
     position:fixed ;
@@ -241,8 +242,8 @@ appear:hover + .mposition {
 .smaller{
     width:200px;
     height:250px;
-    position: fixed;
-    top: 450px;
+    position: absolute;
+    top: 550px;
     left:100px;
     z-index:2;
 }
