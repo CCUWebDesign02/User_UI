@@ -31,21 +31,17 @@ header .row:last-child .col-12 a:hover{
 	font-size: 28px;
 }
 
-.col-4{
+.topicon{
 	margin-top: 5%;
 }
 
-.col-4 .row{
+.topicon .row{
 	display: flex;
 	justify-content: center;
 	align-content: center;	
 }
 
-ul.socialIcons {
-	padding: 0;
-	text-align: right;	
-  }
-  
+
 .socialIcons li {
     list-style: none;
     display: inline-block;
@@ -203,6 +199,20 @@ footer a {
 	margin: 20px 20px;
 }
 
+#picture{
+	display: flex;
+	justify-content: right;
+}
+
+#picture img{
+	margin: 0% 25% 0% -10%;
+	margin-bottom:15px;
+	height: 70%;
+	width:70%; 
+	box-shadow: rgb(34,34,34)1px 1px 5px; 
+	
+	
+}
 
 #infor{
 	color: rgb(22,20,22);
